@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recent_storys",
+  "info": {
+    "singularName": "recent-story",
+    "pluralName": "recent-storys",
+    "displayName": "RecentStorys"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "base_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "image_collections": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "location": {
+      "type": "string"
+    }
+  }
+}
